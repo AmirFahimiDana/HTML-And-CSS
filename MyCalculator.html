@@ -1,0 +1,172 @@
+<html>
+
+<head>
+<style>
+body
+{
+	background-color:black;
+}
+
+h2
+{
+	text-align:center;
+	text-decoration:underline;
+}
+
+.box
+{
+	background-color:gainsboro;
+	height:450px;
+	width:300px;
+	border-radius:10px;
+	position:relative;
+	top:80px;
+	left:40%;
+}
+
+.display
+{
+	background-color:gainsboro;
+	width:300px;
+	position:relative;
+	left:0px;
+	top:20px;
+	height:40px;
+}
+
+.display input
+{
+	position:relative;
+	left:6px;
+	top:2px;
+	height:35px;
+	color:black;
+	background-color:gainsboro;
+	font-size:21px;
+	text-align:right;
+}
+
+.keys
+{
+	position:relative;
+	top:15px;
+}
+
+.button
+{
+	width:50px;
+	height:40px;
+	border:none;
+	border-radius:8px;
+	margin-left:5px;
+	cursor:pointer;
+	
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.top-row
+{
+	color:black;
+	background-color:gainsboro;
+	width:35px;
+	height:30px;
+	margin-left:10px;
+}
+
+.button.top-row:active{}
+
+.first-row
+{
+	color:black;
+	background-color:gainsboro;
+	width:65px;
+	height:40px;
+}
+
+.button.first-row:active{}
+
+.other-row
+{
+	color:black;
+	background-color:lightgray;
+	width:65px;
+	height:40px;
+}
+
+.button.other-row:active
+
+p
+{
+	line-height:10px;
+}
+
+</style>
+
+</head>
+<body>
+<h2>Calculator</h2>
+<div class="box">
+	
+	<div class="display"><input type="text" size="27" id="d"></div>
+	<div class="keys">
+		
+		<p>
+			<input type="button" class="button top-row" value="MC">
+			<input type="button" class="button top-row" value="MR" >
+			<input type="button" class="button top-row" value="M+" >
+			<input type="button" class="button top-row" value="M-" >
+			<input type="button" class="button top-row" value="MS" >
+			<input type="button" class="button top-row" value="M" >
+		</p>
+		
+		<p>
+			<input type="button" class="button first-row" value="%" >
+			<input type="button" class="button first-row" value="Radical">
+			<input type="button" class="button first-row" value="x2" >
+			<input type="button" class="button first-row" value="1/x" >
+		</p>
+		
+		<p>
+			<input type="button" class="button other-row" value="CE" >
+			<input type="button" class="button other-row" value="C" >
+			<input type="button" class="button other-row" value="DEL" >
+			<input type="button" class="button other-row" value="/" >
+		</p>
+		
+		<p>
+			<input type="button" class="button other-row" value="7" >
+			<input type="button" class="button other-row" value="8" >
+			<input type="button" class="button other-row" value="9" >
+			<input type="button" class="button other-row" value="*" >
+		</p>
+		
+		<p>
+			<input type="button" class="button other-row" value="4" >
+			<input type="button" class="button other-row" value="5" >
+			<input type="button" class="button other-row" value="6" >
+			<input type="button" class="button other-row" value="-" >
+		</p>
+		
+		<p>
+			<input type="button" class="button other-row" value="1" >
+			<input type="button" class="button other-row" value="2" >
+			<input type="button" class="button other-row" value="3" >
+			<input type="button" class="button other-row" value="+" >
+		</p>
+		
+		<p>
+			<input type="button" class="button other-row" value="+-" >
+			<input type="button" class="button other-row" value="0" >
+			<input type="button" class="button other-row" value="." >
+			<input type="button" class="button other-row" value="=" >
+		</p>
+	</div>
+</div>
+
+</body>
+
+</html>"# HTML-And-CSS" 
